@@ -1,3 +1,1 @@
-module.exports = {
-  publicPath: '/kamen/'
-}
+module.exports = { publicPath: '/' }

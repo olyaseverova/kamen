@@ -6,6 +6,7 @@
 
 .left-side {
     position: fixed;
+    z-index: 10;
     width: 25%;
     top: 210px;
     height: 100vh;
@@ -19,7 +20,7 @@
     @media (min-width: $tablet-width) {
         position: fixed;
         top: 0;
-        width: 10.5%;
+        width: 12%;
         left: 0;
         padding: 175px 0 0 0;
         transform: translate(0, 0);
@@ -27,6 +28,8 @@
     }
 
     @media (min-width: $desktop-width) {
+        width: 10.5;
+        z-index: 0;
         padding: 250px 0 0 0;
     }
 
@@ -381,18 +384,27 @@
 }
 
 .diler {
-    margin: 0 0 30px 0;
+    width: 350px;
+    margin: 0 auto 60px auto;
+
+    @media (min-width: $tablet-width) {
+        width: 100%;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 400px;
+    }
 
     .diler-form {
         width: 350px;
         height: 500px;
-        margin: 0 auto;
         border-radius: 30px;
         padding: 30px 20px;
         background-color: #a4bb97;
         
         @media (min-width: $tablet-width) {
-            width: 400px;
+            width: 100%;
+            padding: 30px 50px;
         }
 
         .label-wrap {
@@ -401,7 +413,7 @@
 
             label {
                 display: block;
-                width: 400px;
+                width: 100%;
                 margin: 0 0 10px 0;
             }
 
@@ -494,7 +506,12 @@
     width: 100%;
     background-color: white;
     top: 100%;
-    padding: 20px 30px 30px 30px;
+    padding: 50px 30px 30px 30px;
+
+    @media (min-width: $tablet-width) {
+        left: 0;
+        z-index: 11;
+    }
 
     .h3 {
         width: 100%;
@@ -518,10 +535,12 @@
 
     @media (min-width: $tablet-width) {
         width: 79%;
+        margin: 0 0 0 15%;
     }
 
     @media (min-width: $desktop-width) {
         position: static;
+        padding: 280px 0 0 0;
     }
 
     .sections-list {
@@ -605,6 +624,8 @@
         }
 
         @media (min-width: $desktop-width) {
+            position: absolute;
+            top: 0;
             width: 1000px;
             margin: 10px auto 120px auto;
         }
@@ -664,6 +685,7 @@
             }
 
             @media (min-width: $desktop-width) {
+                position: static;
                 width: 100px;
                 height: 100px;
                 margin: 20px 0 0 0;

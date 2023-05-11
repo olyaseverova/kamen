@@ -69,13 +69,13 @@
         </ul>
       </section>
 
-      
+
       <section class="reviews">
         <p class="text bold mb40" ref="about">Отзывы дилеров</p>
 
         <ul class="reviews-list list">
           <li class="reviews-list__item" v-for="review in reviews" :key="review.id">
-            <img class="review-icon" src="@/img/брекчия.jpg" alt="Иконка Дилера" />
+            <img class="review-icon" src="@/img/karpova.jpg" alt="Иконка Дилера" />
             <p class="review-text">{{ review }}</p>
           </li>
         </ul>
@@ -245,9 +245,7 @@ export default {
       ],
 
       reviews: [
-        "Donec adipiscing tristique risus nec. Justo laoreet sit amet cursus sit amet dictum sit",
-        "Et ultrices neque ornare aenean euismod elementum. Ultricies leo integer malesuada nunc",
-        "Tortor id aliquet lectus proin nibh Tortor id aliquet lectus proin nibh Tortor id aliquet"
+        "Наш магазин «Камень на Ярославке» работает с Компанией «Посадский камень» с 2018 года. За время сотрудничества сложились деловые, доверительные, позитивные отношения. Коллектив Компании всегда очень внимательно и с пониманием относиться к нашим пожеланиям и просьбам. Товар всегда доставляется в срок согласно заявке. Продукция отличается хорошим качеством, разнообразием ассортимента. Коллектив находится в постоянном поиске новых фактур, цветовых решений. На площадке «Природный камень» представлена полная экспозиция продукции Компании «Посадский Камень» ИП Карпова Н.В. (Камень на Ярославке) выражает благодарность коллективу Компании за высокий профессионализм, внимание, отзывчивость, трудолюбие, готовность всегда оперативно решить вопросы и помочь, грамотные консультации и советы. Желаем коллективу предприятия дальнейших творческих успехов, профессионального роста и процветания! С уважением, ИП Карпова Н.В.",
       ]
     }
   },

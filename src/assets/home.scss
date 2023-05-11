@@ -288,12 +288,6 @@
             .review-text {
                 margin: 0 0 0 20px;
             }
-
-            @media (min-width: $tablet-width) {
-                .review-text {
-                    margin: 15px 0 0 20px;
-                }
-            }
         }
     }
 }
@@ -360,6 +354,10 @@
     @media (min-width: $tablet-width) {
         width: auto;
         margin: 0 0 30px 0;
+    }
+
+    .delivery-wrap {
+        padding: 20px 0 0 0;
     }
     
     .delivery-icon {
@@ -459,6 +457,7 @@
     display: none;
 
     @media (min-width: $tablet-width) {
+        z-index: -10;
         display: block;
         position: fixed;
         left: 100%;

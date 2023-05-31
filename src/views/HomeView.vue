@@ -1,13 +1,6 @@
 <template>
   <div class="home">
     <section class="left-side none">
-      <div class="numbers">
-        <h3 class="h3-headline">ОПТ:</h3>
-        <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
-        <h3 class="h3-headline">Розница:</h3>
-        <h3 class="number"><a href="tel:+79266255557">+7 (926) 625-55-57</a></h3>
-      </div>
-
       <ul class="pdfs-list list">
         <li class="pdfs-list__item" v-for="pdf in pdfs" :key="pdf.id">
           <a :href="pdf.link" class="pdf-link" target="_blank">
@@ -29,7 +22,16 @@
         </div>
       </div>
 
-      <div class="chapter"></div>
+      <div class="numbers">
+        <div class="number-wrap">
+          <h3 class="h3-headline">ОПТ:</h3>
+          <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
+        </div>
+        <div class="number-wrap">
+          <h3 class="h3-headline">Розница:</h3>
+          <h3 class="number"><a href="tel:+79266255557">+7 (926) 625-55-57</a></h3>
+        </div>
+      </div>
 
       <ul class="sections-list list">
         <li class="sections-list__item" v-for="section in sections" :key="section.id">
@@ -83,8 +85,10 @@
 
         <ul class="reviews-list list">
           <li class="reviews-list__item" v-for="review in reviews" :key="review.id">
-            <img class="review-icon" :src="review.src" alt="Иконка Дилера" />
-            <p class="review-text">{{ review.text }}</p>
+            <div class="review-wrap">
+              <img class="review-icon" :src="review.src" alt="Иконка Дилера" />
+              <p class="review-text">{{ review.text }}</p>
+            </div>
             <p class="review-name">{{ review.name }}</p>
           </li>
         </ul>

@@ -6,55 +6,30 @@
 
 .left-side {
     position: fixed;
-    z-index: 10;
+    z-index: 3;
     width: 25%;
-    top: 210px;
+    top: 250px;
     height: 100vh;
     order: 0;
     left: 100%;
     transform: translate(-100%, 0);
-    padding: 30px 0 0 0;
+    padding: 10px 0 0 0;
     background-color: #345b1d;
     text-align: center;
 
     @media (min-width: $tablet-width) {
-        position: fixed;
         top: 0;
         width: 12%;
         left: 0;
-        padding: 175px 0 0 0;
+        padding: 200px 0 0 0;
         transform: translate(0, 0);
         background-color: #a4bb97;
     }
 
     @media (min-width: $desktop-width) {
         width: 10.5;
-        z-index: 0;
+        z-index: 10;
         padding: 250px 0 0 0;
-    }
-
-    .numbers {
-        position: absolute;
-        top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 10px;
-
-        @media (min-width: $tablet-width) {
-            font-size: 13px;
-        }
-
-        @media (min-width: $desktop-width) {
-            display: none;
-        }
-
-        h3 {
-            margin: 5px 0 0 0;
-        }
-
-        .number {
-            margin: 5px 0 10px 0;
-        }
     }
 
     .pdfs-list {
@@ -95,7 +70,7 @@
                 -webkit-transition: 0.2s ease-in-out;
                 transition: 0.2s ease-in-out;
                 color: white;
-                
+
                 @media (min-width: $tablet-width) {
                     font-size: 10px;
                     height: 40px;
@@ -131,11 +106,12 @@
     justify-content: space-between;
 
     @media (min-width: $tablet-width) {
-        width: 100%;
-        margin: 0 0 50px 0;
+        width: 95%;
+        margin: 25px 0 50px 3%;
     }
 
     @media (min-width: $desktop-width) {
+        margin: 50px 0 50px 3%;
         flex-wrap: nowrap;
     }
 
@@ -175,9 +151,9 @@
     padding: 0;
 
     @media (min-width: $tablet-width) {
-        width: 100%;
+        width: 95%;
         flex-wrap: nowrap;
-        margin: 0 0 50px 0;
+        margin: 0 0 50px 3%;
     }
 
     .statistics-list__item {
@@ -224,8 +200,8 @@
     margin: 0 auto 50px auto;
 
     @media (min-width: $tablet-width) {
-        width: 100%;
-        margin: 0 0 50px 0;
+        width: 95%;
+        margin: 0 0 50px 3%;
     }
 
     .headline {
@@ -270,8 +246,8 @@
     margin: 0 auto 50px auto;
 
     @media (min-width: $tablet-width) {
-        width: 100%;
-        margin: 0 0 50px 0;
+        width: 95%;
+        margin: 0 0 50px 3%;
     }
 
     .headline {
@@ -283,9 +259,11 @@
         padding: 0;
 
         .reviews-list__item {
-            display: flex;
-            flex-wrap: wrap;
             margin: 0 0 30px 0;
+
+            .review-wrap {
+                display: flex;
+            }
 
             .review-icon {
                 width: 60px;
@@ -320,12 +298,12 @@
     margin: 0 auto 40px auto;
 
     @media (min-width: $tablet-width) {
-        width: auto;
-        margin: 0 0 40px 0;
+        width: 95%;
+        margin: 0 0 40px 3%;
     }
 
     @media (min-width: $desktop-width) {
-        margin: 0 0 70px 0;
+        margin: 0 0 70px 3%;
     }
 
     .headline {
@@ -369,6 +347,11 @@
     display: flex;
     justify-content: space-between;
 
+    @media (min-width: $tablet-width) {
+        width: 95%;
+        margin: 0 0 30px 3%;
+    }
+
     .bold {
         text-align: center;
         margin: 0 0 20px 0;
@@ -376,11 +359,6 @@
         @media (min-width: $tablet-width) {
             text-align: left;
         }
-    }
-
-    @media (min-width: $tablet-width) {
-        width: auto;
-        margin: 0 0 30px 0;
     }
 
     .delivery-wrap {
@@ -404,7 +382,8 @@
     margin: 0 auto 50px auto;
 
     @media (min-width: $tablet-width) {
-        width: auto;
+        width: 95%;
+        margin: 0 0 50px 3%;
     }
 }
 
@@ -413,11 +392,8 @@
     margin: 0 auto 60px auto;
 
     @media (min-width: $tablet-width) {
-        width: 100%;
-    }
-
-    @media (min-width: $desktop-width) {
-        width: 100%;
+        width: 95%;
+        margin: 0 0 60px 3%;
     }
 
     .diler-form {
@@ -497,19 +473,20 @@
         display: block;
         width: 16%;
         padding: 20px 0 0 0;
-        
+
         h3 {
             font-size: 19px;
         }
 
         .h3-headline {
+            font-size: 16px;
             margin: 0 0 5px 0;
         }
 
         .number {
-            margin: 0 0 10px 0;
+            margin: 0 0 13px 0;
             text-decoration: underline;
-            
+
             a {
                 transition: 0.2s ease;
                 color: black;
@@ -557,65 +534,87 @@
     margin: 0 auto;
 
     @media (min-width: $tablet-width) {
-        width: 79%;
-        margin: 0 0 0 15%;
+        width: 88%;
+        margin: 0 0 0 12%;
     }
 
     @media (min-width: $desktop-width) {
         position: static;
+        width: 88%;
+        margin: 0 0 0 12%;
         padding: 280px 0 0 0;
     }
 
-    .chapter {
-        position: absolute;
-        width: 100%;
-        z-index: -1;
-        top: 130px;
-        height: 100px;
-        background-color: #345b1d;
-        left: 0;
+    .numbers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 373px;
+        margin: 0 auto 20px auto;
+        text-align: center;
 
         @media (min-width: $tablet-width) {
-            top: 110px;
-            height: 33px;
+            width: 100%;
+            margin: 0 0 20px 3%;
         }
 
         @media (min-width: $desktop-width) {
-            height: 40px;
-            top: 175px;
+            display: none;
+        }
+
+        .number-wrap {
+            display: flex;
+            height: 30px;
+            width: 100%;
+
+            .h3-headline {
+                margin: 0 10px 0 0;
+            }
+
+            .number {
+                margin: 0;
+
+                a {
+                    color: black;
+
+                    &:hover {
+                        color: #345b1d;
+                    }
+                }
+            }
         }
     }
 
     .sections-list {
+        position: sticky;
+        z-index: 5;
+
+        top: 0;
         display: flex;
         margin: 0 auto 25px auto;
         justify-content: space-around;
         padding: 0;
-        width: 373px;
+        width: 100%;
         flex-wrap: wrap;
 
-        @media (min-width: $tablet-width) {
-            position: absolute;
-            z-index: 110;
-            left: 12%;
-            top: 110px;
+        background-color: #345b1d;
 
-            width: 88%;
+        @media (min-width: $tablet-width) {
+            top: 0;
+            left: 0;
+
+            margin: 0 0 0 0;
 
             justify-content: space-between;
             flex-wrap: nowrap;
             height: 33px;
-            padding: 0px 10px 0 30px;
+            padding: 0 10px 0 30px;
         }
 
         @media (min-width: $desktop-width) {
-            position: absolute;
             width: 100%;
-            top: 170px;
-            left: 0;
-            z-index: 5;
+            margin: -110px 0 0 0;
 
-            padding: 0 30px 0 220px;
+            padding: 0 30px 0 3%;
             height: 50px;
         }
 
@@ -659,18 +658,18 @@
         display: flex;
         width: 350px;
         justify-content: space-between;
-        margin: 10px auto 25px auto;
+        margin: 10px auto 20px auto;
 
         @media (min-width: $tablet-width) {
             width: 575px;
-            margin: 10px 0 80px 0;
+            margin: 10px auto 25px 3%;
         }
 
         @media (min-width: $desktop-width) {
             position: absolute;
             top: 0;
             width: 1000px;
-            margin: 10px auto 120px auto;
+            margin: 10px auto 110px 3%;
         }
 
         h1 {
@@ -693,7 +692,7 @@
         .under-headline {
             margin: 10px 0 0 0;
             font-size: 15px;
-            letter-spacing: 0px;
+            letter-spacing: 0;
             font-family: "Verdana-Regular", sans-serif;
 
             @media (min-width: $tablet-width) {

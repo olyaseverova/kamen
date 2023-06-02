@@ -201,13 +201,14 @@ export default {
       pdfs: [
         {
           name: "КАТАЛОГ",
+          link: "https://drive.google.com/file/d/1b9UtIuhDl_LZBU2DHKh_u0fjMWXfpMcz/view?usp=drive_link"
         },
         {
           name: "ПРАЙС",
           link: "https://drive.google.com/file/d/1nyBD_PxWz9ZpvE0Q7jO_ubVstjkZYqTZ/view?usp=sharing"
         },
         {
-          name: "УСЛОВИЯ",
+          name: "УСЛОВИЯ"
         },
         {
           name: "СЕРТИФИКАТЫ",

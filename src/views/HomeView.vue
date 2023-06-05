@@ -24,7 +24,7 @@
 
       <div class="numbers">
         <div class="number-wrap">
-          <h3 class="h3-headline">ОПТ:</h3>
+          <h3 class="h3-headline">Опт:</h3>
           <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
         </div>
         <div class="number-wrap">
@@ -53,7 +53,7 @@
           <p class="text mb30">Обладаем собственным автопарком для доставки продукции на розничные точки партнеров.</p>
           <p class="text mb30">Наша вибролитая продукция является самой качественной в России и производится в строгом
             соответствии с ГОСТом.</p>
-          <p class="text mb30">В настоящий момент мы активно расширяем дилерскую сеть в Московской области и ищем новые
+          <p class="text">В настоящий момент мы активно расширяем дилерскую сеть в Московской области и ищем новые
             розничные точки сбыта.</p>
         </div>
       </section>
@@ -66,8 +66,8 @@
       </ul>
 
       <section class="principles fade-in">
-        <p class="headline text bold">Принципы работы предприятия</p>
-        <p class="text mb30">Наше предприятие максимально ориентировано на розничные продажи в небольших и средних
+        <p class="headline text bold text-center">Принципы работы предприятия</p>
+        <p class="text mb30 principles-desc">Наше предприятие максимально ориентировано на розничные продажи в небольших и средних
           несетевых и мелкосетевых строительных магазинах в Московской области. Мы работаем по
           принципу B2B. Наши достоинства для дилеров:</p>
 
@@ -81,7 +81,7 @@
 
 
       <section class="reviews">
-        <p class="headline text bold">Отзывы дилеров</p>
+        <p class="headline text bold text-center">Отзывы дилеров</p>
 
         <ul class="reviews-list list">
           <li class="reviews-list__item" v-for="review in reviews" :key="review.id">
@@ -95,7 +95,7 @@
       </section>
 
       <section class="guarantee">
-        <p class="headline text bold" ref="guarantee">Гарантия качества</p>
+        <p class="headline text bold text-center" ref="guarantee">Гарантия качества</p>
         <div class="guarantee-wrap">
           <div class="description">
             <p class="text">
@@ -137,7 +137,7 @@
           аттестованы нами и рядом других производителей.</p>
       </section>
 
-      <section class="diler" ref="diler">
+      <!-- <section class="diler" ref="diler">
         <p class="text bold mb30 text-center">Стать дилером</p>
 
         <form class="diler-form">
@@ -171,7 +171,7 @@
           <button class="diler-button" type="submit">Стать дилером</button>
 
         </form>
-      </section>
+      </section> -->
 
       <footer class="contacts" id="contacts" ref="contacts">
         <h3 class="h3">КОНТАКТЫ</h3>
@@ -183,7 +183,7 @@
     </section>
 
     <section class="right-side">
-      <h3 class="h3-headline">ОПТ:</h3>
+      <h3 class="h3-headline">Опт:</h3>
       <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
       <h3 class="h3-headline">Розница:</h3>
       <h3 class="number"><a href="tel:+79266255557">+7 (926) 625-55-57</a></h3>

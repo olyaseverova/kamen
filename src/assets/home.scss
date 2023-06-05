@@ -103,7 +103,6 @@
     flex-wrap: wrap;
     display: flex;
     margin: 0 auto 50px auto;
-    justify-content: space-between;
 
     @media (min-width: $tablet-width) {
         width: 95%;
@@ -111,15 +110,31 @@
     }
 
     @media (min-width: $desktop-width) {
-        margin: 50px 0 50px 3%;
+        margin: 50px 0 60px 3%;
         flex-wrap: nowrap;
     }
 
+    .description {
+        .text {
+            text-align: justify;
+
+            &:last-of-type {
+                margin-bottom: 30px;
+                
+                @media (min-width: $tablet-width) {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
     .bold {
-        margin: 0 0 20px 0;
+        text-align: center !important;
+        margin: 0 auto 20px auto;
 
         @media (min-width: $desktop-width) {
             margin: 0 0 15px 0;
+            padding: 0 0 0 25%;
         }
     }
 
@@ -138,6 +153,7 @@
 
         @media (min-width: $desktop-width) {
             display: block;
+            margin: 0 3% 0 0;
         }
     }
 }
@@ -202,6 +218,10 @@
     @media (min-width: $tablet-width) {
         width: 95%;
         margin: 0 0 50px 3%;
+    }
+
+    .principles-desc {
+        text-align: justify;
     }
 
     .headline {
@@ -279,6 +299,7 @@
             .review-text {
                 width: 270px;
                 margin: 0;
+                text-align: justify;
 
                 @media (min-width: $tablet-width) {
                     width: 90%;
@@ -321,6 +342,7 @@
 
         .description {
             .text {
+                text-align: justify;
                 margin: 0 0 25px 0;
             }
         }
@@ -337,6 +359,7 @@
 
         @media (min-width: $desktop-width) {
             display: block;
+            margin: 0 0 0 3%;
         }
     }
 }
@@ -352,12 +375,21 @@
         margin: 0 0 30px 3%;
     }
 
+    .text {
+        text-align: justify;
+    }
+
     .bold {
         text-align: center;
         margin: 0 0 20px 0;
 
         @media (min-width: $tablet-width) {
+            padding: 0 0 0 20%;
             text-align: left;
+        }
+        
+        @media (min-width: $desktop-width) {
+            padding: 0 0 0 25%;
         }
     }
 
@@ -370,7 +402,7 @@
 
         @media (min-width: $tablet-width) {
             display: block;
-            margin: 0 15px 0 0;
+            margin: 0 3% 0 0;
             width: 200px;
             height: 200px;
         }
@@ -380,6 +412,7 @@
 .styling {
     width: 350px;
     margin: 0 auto 50px auto;
+    text-align: justify;
 
     @media (min-width: $tablet-width) {
         width: 95%;

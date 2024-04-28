@@ -25,7 +25,7 @@
       <div class="numbers">
         <div class="number-wrap">
           <h3 class="h3-headline">Опт:</h3>
-          <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
+          <h3 class="number"><a href="tel:+79269255557">+7 (926) 625-55-57</a></h3>
         </div>
         <div class="number-wrap">
           <h3 class="h3-headline">Розница:</h3>
@@ -136,43 +136,7 @@
           воспользоваться услугами своей дочерней строительной организации "STEINCLUB", чьи специалисты
           аттестованы нами и рядом других производителей.</p>
       </section>
-
-      <!-- <section class="diler" ref="diler">
-        <p class="text bold mb30 text-center">Стать дилером</p>
-
-        <form class="diler-form">
-          <div class="label-wrap">
-            <label for="INN">ИНН организации</label>
-            <input class="big" type="numver" id="INN">
-          </div>
-
-          <div class="label-wrap">
-            <label for="adress">Адрес торговой точки</label>
-            <input class="big" type="numver" id="adress">
-          </div>
-
-          <div class="label-wrap">
-            <label for="time">Время работы:</label>
-            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required> -
-            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
-          </div>
-
-          <div class="label-wrap">
-            <p>Наличие вилочного погрузчика:</p>
-            <div class="radio-wrap">
-              <input type="radio" id="contactChoice1" name="contact" value="email">
-              <label for="contactChoice1">Есть</label>
-
-              <input type="radio" id="contactChoice2" name="contact" value="phone">
-              <label for="contactChoice2">Нет</label>
-            </div>
-          </div>
-
-          <button class="diler-button" type="submit">Стать дилером</button>
-
-        </form>
-      </section> -->
-
+      
       <footer class="contacts" id="contacts" ref="contacts">
         <h3 class="h3">КОНТАКТЫ</h3>
         <p class="text-contacts">Нашу продукцию можно приобрести в следующих магазинах:</p>
@@ -184,7 +148,7 @@
 
     <section class="right-side">
       <h3 class="h3-headline">Опт:</h3>
-      <h3 class="number"><a href="tel:+79269255557">+7 (926) 925-55-57</a></h3>
+      <h3 class="number"><a href="tel:+79269255557">+7 (926) 625-55-57</a></h3>
       <h3 class="h3-headline">Розница:</h3>
       <h3 class="number"><a href="tel:+79266255557">+7 (926) 625-55-57</a></h3>
     </section>

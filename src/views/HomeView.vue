@@ -164,12 +164,11 @@ export default {
     return {
       pdfs: [
         {
-          name: "КАТАЛОГ",
-          link: "https://drive.google.com/file/d/1b9UtIuhDl_LZBU2DHKh_u0fjMWXfpMcz/view?usp=drive_link"
+          name: "КАТАЛОГ"
         },
         {
           name: "ПРАЙС",
-          link: "https://drive.google.com/file/d/1nyBD_PxWz9ZpvE0Q7jO_ubVstjkZYqTZ/view?usp=sharing"
+          link: "https://drive.google.com/file/d/1Y18mGVHoWBUk2--XNSRWFKwk8lX5oZRS/view?usp=drive_link"
         },
         {
           name: "УСЛОВИЯ"

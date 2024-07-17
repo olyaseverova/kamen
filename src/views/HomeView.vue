@@ -164,11 +164,12 @@ export default {
     return {
       pdfs: [
         {
-          name: "КАТАЛОГ"
+          name: "КАТАЛОГ",
+          link: "katalog.pdf"
         },
         {
           name: "ПРАЙС",
-          link: "https://drive.google.com/file/d/1Y18mGVHoWBUk2--XNSRWFKwk8lX5oZRS/view?usp=drive_link"
+          link: "price.pdf"
         },
         {
           name: "УСЛОВИЯ"

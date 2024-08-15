@@ -16,6 +16,7 @@
         <div>
           <h1 сlass="headline-1">ПОСАДСКИЙ КАМЕНЬ</h1>
           <p class="under-headline">ПРОИЗВОДИТЕЛЬ КАЧЕСТВЕННОЙ ПЛИТКИ</p>
+          <p class="place">Московская область, г. Сергиев Посад, ул. Фестивальная, 6А</p>
         </div>
         <div class="menu-wrapper" @click="openMenu">
           <div class="hamburger-menu"></div>
